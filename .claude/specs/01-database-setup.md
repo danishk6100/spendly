@@ -146,7 +146,7 @@ Use exactly these values:
 - Hash passwords using:
     
     ```
-    fromwerkzeug.securityimportgenerate_password_hash
+    from werkzeug.security import generate_password_hash
     ```
     
 - `seed_db()` must prevent duplicate inserts
